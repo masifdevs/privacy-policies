@@ -1,0 +1,162 @@
+# BlackBook – Privacy Policy & Account Deletion Policy
+
+## Privacy Policy
+
+BlackBook ("we," "our," or "us") is a service platform that connects hospitality staff (Employees) with guests (Patrons), managed by administrators (Admins). This Privacy Policy describes how we collect, use, store, and protect your information when you use the BlackBook Admin, BlackBook Employee, or BlackBook app.
+
+### 1. Who This Policy Applies To
+
+- **Patrons** – Guests who create an account (often via an invite) to connect with staff and manage dining, lounge, and event interactions.
+- **Employees** – Hospitality staff (e.g., sommeliers, servers) who use the app to manage invites, connections, interactions, and venues.
+- **Admins** – Users who manage venues, staff, applications, and reports.
+
+### 2. Information We Collect
+
+**Account and profile**
+
+- Email address and password (handled by Firebase Authentication).
+- Display name, phone number, profile photo.
+- **Patrons:** Preferred cities, dietary preferences, favorite cuisines, membership status, trust level.
+- **Employees:** Position, years of experience, bio, languages, specialties, certifications, CV, ID documents (if provided), venue assignments, profile and booking settings.
+- **Admins:** Account details used to access the admin app.
+
+**Usage and activity**
+
+- Connections between Patrons and Employees.
+- Interaction requests and bookings (dining, lounge, events), including date, city, venue, party size, notes, and status.
+- In-app messages (chats).
+- Invites created by Employees and used by Patrons.
+- Notification preferences and push notification tokens (Firebase Cloud Messaging).
+- Reports submitted by users (e.g., member reports), including any optional details you provide.
+
+**Device and technical**
+
+- Device type, OS, and app version for compatibility and security.
+- Data stored locally (e.g., app settings, session state).
+
+**Photos and files**
+
+- Profile pictures and, where applicable, CV or ID documents you upload (e.g., via Firebase Storage).
+
+**Camera and media**
+
+- The app may request camera or photo library access for profile photos or QR scanning. We only use images you choose to upload.
+
+### 3. How We Use Your Information
+
+We use the information to:
+
+- Create and manage your account and authenticate you (Firebase Authentication).
+- Store and sync your profile, connections, interactions, invites, and messages (Firestore, Firebase Storage).
+- Send push notifications (e.g., connection requests, interaction updates) via Firebase Cloud Messaging.
+- Display venue and restaurant information, including locations (e.g., maps) where you use those features.
+- Process employee applications and admin approvals.
+- Enforce our terms, investigate reports, and protect the platform.
+- Improve the Apps and fix issues.
+
+### 4. Third-Party Services
+
+- **Firebase (Google):** Authentication, Firestore, Storage, Cloud Messaging. [Firebase Privacy](https://firebase.google.com/support/privacy).
+- **Google Maps:** Venue/restaurant locations when you use map-related features.
+- **Device capabilities:** Camera and photo library for profile photos and QR scanning.
+
+We do not sell your data to third parties.
+
+### 5. Data Sharing and Visibility
+
+- Your profile and activity may be visible to other users as needed (e.g., Employees see Patron profiles for connections; Patrons see Employee profiles and venues).
+- We may disclose information if required by law, to protect rights or safety, or with your consent.
+
+### 6. Data Retention
+
+We retain your data while your account is active and as needed to provide the service, comply with law, resolve disputes, and enforce agreements. If you delete your account, we handle data as set out in the **Account Deletion Policy** below.
+
+### 7. Security
+
+We use industry-standard measures (including Firebase) to protect your data. You are responsible for keeping your login credentials secure.
+
+### 8. Your Rights and Choices
+
+- Update your profile and preferences in the app.
+- Sign out at any time.
+- Request access, correction, or deletion of your data by contacting us (see Contact). Account deletion is also governed by our Account Deletion Policy.
+- Depending on your region (e.g., GDPR, CCPA), you may have additional rights; contact us to exercise them.
+
+### 9. Children
+
+The Apps are not intended for users under 16. We do not knowingly collect data from children under 16.
+
+### 10. Changes
+
+We may update this Privacy Policy. We will notify you of material changes via the app or email where appropriate. Continued use after changes means acceptance of the updated policy.
+
+### 11. Contact (Privacy)
+
+- **Email:** jclopton@cloptoncapital.com
+- **Data controller:** Jake Clopton
+
+---
+
+## Account Deletion Policy
+
+
+This policy explains how you can request account deletion and how we handle your data when an account is deleted.
+
+### 1. Who Can Request Deletion
+
+- **Patrons** – Can request full account deletion. Once processed, your Patron profile, links to connections and interactions, and related data will be removed or anonymized as described below.
+- **Employees** – Account status may be deactivated by you or by an Admin. Full deletion may require going through support or admin process, as your data may be tied to venues, interactions, and historical records.
+- **Admins** – Admin account deletion is handled internally; contact the designated administrator or support.
+
+### 2. What Happens When You Delete Your Account
+
+**We will:**
+
+- Delete or irreversibly anonymize your **account and profile data** (e.g., name, email, phone, photo, preferences) from our systems.
+- Remove or anonymize your data from **connections**, **invites**, **interactions**, and **chats** so you are no longer identifiable. Some aggregated or anonymized data may be retained for legal, safety, or operational reasons (e.g., completed interaction counts, dispute records).
+- Delete your **Firebase Authentication** identity so you cannot sign in with that account.
+- Remove **profile and uploaded files** (e.g., profile pictures, CV/ID documents) from storage where feasible.
+
+**We may retain (in anonymized or aggregated form):**
+
+- Data required for legal, tax, or regulatory compliance.
+- Records needed to resolve disputes, enforce our terms, or protect safety (e.g., reports, moderation history).
+- Backups for a limited period; your data will be removed from backups in line with our retention schedule.
+
+### 3. How to Request Account Deletion
+
+**In the app**
+
+- **Patrons:** Use **Settings → Account → Delete account** (when available), or contact support.
+- **Employees:** Use **Profile/Settings → Deactivate account** for deactivation, or contact support for full deletion.
+- **Admins:** Contact your organization’s administrator or support.
+
+**By email**
+
+- Send a clear request (e.g., “I want to delete my BlackBook account”) to: **jclopton@cloptoncapital.com**
+- Include the email address associated with your account and, if possible, the app type (Patron / Employee / Admin).
+
+### 4. Processing Time
+
+We will process deletion requests within **30 days** (or within the period required by your jurisdiction). You will receive confirmation when the process is complete. Until then, your account may remain deactivated or restricted.
+
+### 5. After Deletion
+
+- You will not be able to sign in or recover the account.
+- You may create a new account in the future, but previous data will not be restored.
+- Where we must retain anonymized or legal data, it will no longer be linked to you.
+
+### 6. Exceptions
+
+We may delay or refuse deletion where we must:
+
+- Comply with legal or regulatory obligations.
+- Complete ongoing transactions or investigations.
+- Protect the rights, safety, or security of BlackBook or others.
+
+We will inform you if any of these apply.
+
+### 7. Contact (Account Deletion)
+
+- **Email:** jclopton@cloptoncapital.com
+- **In-app:** Help & Support or Settings, depending on the app.
